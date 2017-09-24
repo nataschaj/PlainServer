@@ -13,7 +13,10 @@ namespace PlainServer
         public void Start()
         {
             TcpListener server = new TcpListener(IPAddress.Loopback, 10001);
+            server.Start();
 
+
+            Console.ReadLine();
         }
     }
 }
