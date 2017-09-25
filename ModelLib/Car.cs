@@ -16,11 +16,9 @@ namespace ModelLib
         public string Color { get; set; }
         public string RegNo { get; set; }
 
-        public Car(/*string model, string color, string regno*/)
+        public Car()
         {
-            //this.Color = color;
-            //this.Model = model;
-            //this.RegNo = regno;
+
         }
 
         public override string ToString()
